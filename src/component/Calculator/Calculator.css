@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(152, 245, 245);
+}
+.calculator {
+    width: 260px;  
+    margin: 50px auto;
+    padding: 15px;
+    border: 2px solid #0606f0;
+    box-shadow: 20px 20px 10px 5px rgb(102, 95, 95);
+    border-radius: 8px;
+    /* background-color: #939ba063; */
+    background-image: url(https://en.kabar.kg/site/assets/files/14396/my88nxt3fmmj_730x400.730x0.jpg);
+    background-size: auto;
+  }
+  
+  .display {
+    background-color: #f8f5f594;
+    color: #b40404;
+    font-size: 30px;
+    text-align: right;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid blue;
+    font-weight: 600;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 25px;
+    background-color: #ffffff98;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(5, 61, 245);
+    font-weight: bold;
+
+  }
+  
+  button:hover {
+    background-color: #8fa5b4af;
+    color: #fd0505
+  }
+  .calculator-title {
+    text-align: left;
+    font-size: 20px;
+    margin-bottom: 0px;
+    color: #1a0af5;
+    margin-top: 0px;
+  }
+  .header {
+    display: flex;
+    align-items: left;
+    margin-bottom: 10px;
+  }
+  
+  .logo {
+    width: 40px; /* Ширина логотипа */
+    height: auto;
+    border-radius: 50%;
+    margin-left: 120px;
+    margin-top: -10px;
+  }
